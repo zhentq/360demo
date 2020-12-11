@@ -1,0 +1,39 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+    display: flex;
+  }
+  
+  .info {
+    width: 400px;
+    height: 500px;
+    margin: auto;
+  }
+  
+  .info .login,
+  .info .register {
+    display: inline;
+  }
+  
+  input.error{
+    border: 1px solid red;
+  }
+  label.error{
+    color: red;
+  }
+  .login_error{
+    color: red;
+  }
+  .panel-heading{
+    text-align: center;
+    color: #3fb74f;
+    font-weight: 600;
+    font-size: 19px;
+  }
+  .form-control{
+    width: 315px;
+  }
+  .btn{
+    width: 120px;
+  }
